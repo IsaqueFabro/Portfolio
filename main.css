@@ -1,10 +1,11 @@
 *, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    box-sizing: border-box; /* keeps width and height consistent even with padding and border */
+    margin: 0px; /* removes default spacing */
+    padding: 0px; /* removes default spacing */
 }
 
 :root{
+    /* color variables for easy theme changes */
     --base: #555;
     --base-100: #f1f1f1;
     --base-400: #555;
@@ -20,67 +21,66 @@
 }
 
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif; /* sets the font for the whole page */
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 20px;
+    font-size: 20px; /* makes text a bit larger */
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none; /* removes underline from links */
     color: var(--blue);
     &:hover{
-        text-decoration: underline;
+        text-decoration: underline; /* underline on hover for better ux */
     }
 }
 
 header{
     padding-top: 10px;
     padding-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1440px;
-    margin: auto;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    display: flex; /* makes children align in a row */
+    justify-content: space-between; /* spreads content to edges */
+    max-width: 1440px; /* limits header width */
+    margin: auto; /* centers the header */
+    border-bottom: 1px solid rgba(0,0,0,0.1); /* subtle bottom border */
 
     .logo-holder {
-        display: flex;
+        display: flex; /* aligns logo and text in a row */
         padding: 10px;
-        align-items: center;
+        align-items: center; /* centers items vertically */
         font-weight: 600;
         color: var(--base-800);
 
         .logo {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: flex; /* centers icon inside the circle */
+            align-items: center; /* centers vertically */
+            justify-content: center; /* centers horizontally */
             font-size: 32px;
             background-color: var(--base-800);
             color: var(--base-100);
             height: 64px;
             width: 64px;    
-            margin-right: 20px;
-            border-radius: 50%;
+            margin-right: 20px; /* space between logo and text */
+            border-radius: 50%; /* makes it a perfect circle */
         }
 
         .logo-text{
-            flex:1;
-
+            flex: 1; /* makes text take available space */
         }
     }   
     nav{
-        display: flex;
-        align-items: center;
+        display: flex; /* makes nav items align in a row */
+        align-items: center; /* centers items vertically */
         font-size: 15px;
         ul {
-            display: flex;
-            list-style-type: none;
-            gap: 50px;
+            display: flex; /* makes menu items align in a row */
+            list-style-type: none; /* removes bullet points */
+            gap: 50px; /* spaces out nav items */
             li {
-                display: inline-block;
+                display: inline-block; /* keeps list items inline */
                 a {
-                    display: inline-block;
-                    padding: 10px, 20px;
+                    display: inline-block; /* allows padding and width to work */
+                    padding: 10px 20px; /* fixes incorrect comma, adds spacing inside links */
                     color: var(--base);
                     &:hover {
                         background: var(--base-100);
@@ -91,7 +91,4 @@ header{
             }
         }
     }
-
-
 }
-
