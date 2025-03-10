@@ -104,12 +104,12 @@ header{
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1024px) { /* adjust layout for Ipad view */
         flex-direction: column; /* stacks items on smaller screens */
         align-items: center;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 768px) { /* adjust layout for Iphone view */
         flex-direction: column; /* stacks items vertically */
         align-items: center;
         nav {
@@ -127,6 +127,27 @@ header{
                     display: flex; /* shows menu when active */
                 }
             }
+        }
+    }
+}
+
+.hero {
+    display: flex;
+    margin-top: 30px;
+    .hero-blue {
+        flex: 1;
+    }
+    .hero-yellow {
+        flex: 1;
+        background-color: var(--yellow);
+        border-radius: 30px;
+        padding: 0px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        img {
+            margin-top: -60px;
+            max-width: 420px;
         }
     }
 }
