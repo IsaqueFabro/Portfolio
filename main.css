@@ -139,6 +139,19 @@ section {
     margin-bottom: 30px;
 }
 
+h1 {
+	font-size:64px;
+	line-height:1;
+	margin-bottom:10px;
+	small {
+		display:block;
+		font-weight:100;
+	}
+	@media (max-width:1024px){
+		font-size:48px;
+	}
+}
+
 .hero {
 	display:flex;
 	@media (max-width:1024px){
@@ -188,3 +201,4 @@ section {
 		}
 	}
 }
+
