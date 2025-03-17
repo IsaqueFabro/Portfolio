@@ -334,3 +334,82 @@ h3 {
 		}
 	}
 }
+
+.work-experience {
+	.jobs {
+		display:flex;
+		gap:30px;
+		@media(max-width:1024px){
+			flex-direction:column;
+		}
+		article {
+			background-color: var(--yellow-100);
+			padding:30px;
+			border-radius:30px;
+			flex:1;
+			h3 {
+				margin-top:20px;
+				margin-bottom:10px;
+			}
+			div {
+				font-weight:600;
+				margin-bottom:5px;
+				color: var(--base-800);
+			}
+			p {
+				margin-bottom:10px;
+			}
+			figure {
+				width:100%;
+				padding-top:56.25%;
+				overflow:hidden;
+				position:relative;
+				border-radius:15px;
+				img {
+					position:absolute;
+					top:0;
+					left:0;
+					height:100%;
+					object-fit:cover;
+					transition: ease 3s all;
+				}
+				figcaption {
+					position:absolute;
+					bottom:0;
+					left:0;
+					right:0;
+					background-color: rgba(0,0,0,0.5);
+					color: var(--base-100);
+					text-align:center;
+					padding:10px;
+					opacity:0;
+					visibility:hidden;
+					transition: ease 0.3s all;
+				}
+
+				&:hover {
+					figcaption {
+						opacity:1;
+						visibility:visible;
+					}
+					img {
+						transform: scale(1.2);
+					}
+				}
+
+			}
+		}
+	}
+}
+
+.role-link {
+    display: inline-block;
+    padding: 5px 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    &:hover {
+        text-decoration: none;
+    }
+}
