@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!-- head section -->
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Responsive Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css"> 
     <script src="main.js"></script> 
     <link rel="icon" type="image/jpg" href="./imgs/profile/square.jpg"> 
+    <title>Responsive Portfolio</title>
 </head>
 <body>
-    <header>
+    <header> <!-- header section -->
         <a href="#" class="logo-holder"> <!-- clickable logo that links to the top of the page -->
             <div class="logo">L</div> <!-- logo inside a circle -->
             <div class="logo-text">Responsive Portfolio</div> <!-- text next to the logo -->
         </a>
-        <nav>
-            <ul id="menu"> <!-- navigation menu -->
+        <nav> <!-- navigation menu -->
+            <ul id="menu"> 
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Projects</a></li>
@@ -105,7 +105,7 @@
                         <li>Ruby</li>
                     </ul>
                 </div>
-                <div class="right-column"> 
+                <div class="right-column"> <!-- about me -->
                     <h3>A bit about me</h3>
                     <p>Hi, I'm Isaque.</p>
                     <p>A Computer Engineering and Software Engineering student with a strong foundation in programming. I’ve worked on real-world projects with companies through DNC, gaining hands-on experience.
@@ -118,7 +118,7 @@
                 </div>
             </div>
         </section>
-		<section class="work-experience container">
+		<section class="work-experience container"> <!-- work experience section -->
 			<h2>
 				<small>Recent</small>
 				Work Experience
@@ -162,28 +162,51 @@
             </section>
             <section id="projects" class="bento container">
                 <h2>
-                    <small>
-                        Previous
-                    </small>
+                    <small>Previous</small>
                     Completed Projects
                 </h2>
                 <div class="bento-grid">
                     <a href="https://github.com/davijr28/gerenciador_emprestimo_A3" class="bento-item">
-                        <img src="imgs/projects/tool-project.jpg" alt="Error" width="100%" />
+                        <figure>
+                            <img src="imgs/projects/tool-project.jpg" alt="Error" />
+                            <figcaption>Gerenciador de Empréstimos</figcaption>
+                        </figure>
                     </a>
                     <a href="https://github.com/IsaqueFabro/Vehicle-Consume" class="bento-item">
-                        <img src="imgs/projects/consume-project.jpg" alt="Error" width="100%" />
+                        <figure>
+                            <img src="imgs/projects/consume-project.jpg" alt="Error" />
+                            <figcaption>Vehicle Consume</figcaption>
+                        </figure>
                     </a>
                     <a href="https://github.com/IsaqueFabro/South-s-Destination-Page" class="bento-item">
-                        <img src="imgs/projects/travel-agency.avif" alt="Error" width="100%" />
+                        <figure>
+                            <img src="imgs/projects/travel-agency.avif" alt="Error" />
+                            <figcaption>South's Destination Page</figcaption>
+                        </figure>
                     </a>
                     <a href="https://github.com/IsaqueFabro/Desafios-Python" class="bento-item">
-                        <img src="imgs/projects/fibonacci.jpg" alt="Error" width="100%" />
+                        <figure>
+                            <img src="imgs/projects/fibonacci.jpg" alt="Error" />
+                            <figcaption>Desafios Python</figcaption>
+                        </figure>
                     </a>
                     <a href="https://github.com/IsaqueFabro/School-Landing-Page" class="bento-item">
-                        <img src="imgs/projects/landing-page.png" alt="Error" width="100%" />
+                        <figure>
+                            <img src="imgs/projects/landing-page.png" alt="Error" />
+                            <figcaption>School Landing Page</figcaption>
+                        </figure>
                     </a>
                 </div>
+            </section>
+
+            <section class="chatbox container">
+                <h2>
+                    <small>
+                        Talk to me
+                    </small>
+                    Chatbot
+                </h2>
+
             </section>
     </main>
 </body>

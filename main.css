@@ -492,14 +492,6 @@ h3 {
 					grid-row: span 2;
 				}
 			}
-			&:nth-child(6) {
-				grid-column: span 5;
-				grid-row: span 3;
-				@media(max-width:1024px){
-					grid-column: span 5;
-					grid-row: span 2;
-				}
-			}
 		}
 	}
 }
