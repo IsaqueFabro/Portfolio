@@ -497,6 +497,14 @@ h3 {
 	}
 }
 
+.footer{
+	background-color: var(--blue-800);
+	color: var(--blue-100);
+	border-radius: 20px;
+	padding: 30px;
+	text-align: center;
+}
+
 .chatbot {
 	.chatbot-blue {
 		background-color: var(--blue-100);
