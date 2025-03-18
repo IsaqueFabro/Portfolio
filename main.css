@@ -338,7 +338,7 @@ h3 {
 .work-experience {
 	.jobs {
 		display:flex;
-		gap:30px;
+		gap: 30px;
 		@media(max-width:1024px){
 			flex-direction:column;
 		}
