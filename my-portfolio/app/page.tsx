@@ -24,7 +24,7 @@ export default function Home() {
             <div className="logo-text">Responsive Portfolio</div> 
         </a>
         <nav> 
-            <ul id="menu"> 
+            <ul id="menu" className={menuOpen ? "active" : ""}> 
                 <li><a href="#">Home</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -245,4 +245,5 @@ export default function Home() {
             </footer>
             </section>
     </main>
-    </>
+    </> );
+}
