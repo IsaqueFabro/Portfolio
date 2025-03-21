@@ -421,10 +421,7 @@ h3 {
 		background-size: cover;
 		grid-gap:30px;
 		grid-template-columns: repeat(5, 1fr);
-    	grid-template-rows: repeat(4, 1fr); /* Antes */
-    
-    	/* Reduzindo para apenas 2 linhas */
-    	grid-template-rows: repeat(2, 1fr); /* Agora */
+		grid-template-rows: repeat(4, 1fr);
 		height:960px;
 		@media(max-width:1024px){
 			grid-template-rows: repeat(8, 1fr);
