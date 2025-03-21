@@ -5,7 +5,7 @@ Welcome to my **personal portfolio**! This project showcases my skills, experien
 ---
 
 ## 🌍 Live Website  
-🔗 **[Portfolio Website](#)** _(https://isaquefabro.netlify.app/)_ 
+🔗 **[Portfolio Website](https://isaquefabro.netlify.app/)**
 
 ---
 
