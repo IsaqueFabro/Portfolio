@@ -5,7 +5,7 @@ Welcome to my **personal portfolio**! This project showcases my skills, experien
 ---
 
 ## 🌍 Live Website  
-🔗 **[Portfolio Website](#)** _(Update with the actual link)_  
+🔗 **[Portfolio Website](#)** _(https://isaquefabro.netlify.app/)_ 
 
 ---
 
@@ -13,7 +13,7 @@ Welcome to my **personal portfolio**! This project showcases my skills, experien
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/IsaqueFabro/myportfolio.git
+git clone https://github.com/IsaqueFabro/Portfolio
 cd myportfolio
 ```
 
@@ -79,4 +79,4 @@ Navigate to `http://localhost:3000/` in your browser.
 ---
 
 ### 🔹 Note:  
-I previously implemented an **AI chatbot** in this project, but due to **API pricing changes**, it has been removed.  
+I previously implemented an **AI chatbot** in this project, but due to **API pricing changes**, it has been removed.
