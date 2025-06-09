@@ -76,7 +76,7 @@ export default function Home() {
               </p>
               <div className="call-to-action">
                 <a
-                  href="./imgs/resume/Curriculo 2025.1.pdf"
+                  href="./imgs/resume/Curriculo 2025.2 pt-br.pdf"
                   className="button black"
                 >
                   View Resume
@@ -201,7 +201,7 @@ export default function Home() {
               <img src="./imgs/work/prf-logo.jpg" alt="Prf" width="28px" /> Ti
               Intern
             </h3>
-            <div>2024-current</div>
+            <div>2024-2025</div>
             <p>
               Currently, I am an intern at the Superintendence of the Federal
               Highway Police, where I contribute in the construction of a
